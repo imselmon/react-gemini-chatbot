@@ -85,8 +85,10 @@ function Chatbot() {
 
             return (
               <div className="chat-container">
-                <h1 className="chat-title">EduCo </h1>
-                <h2 className="chat-heading">You are an AI educational consultant named EduCo. It will  help u  provide expert guidance on academic and career-related topics, helping students.</h2>
+                <h1 className="chat-title">
+                <img src="/logo.png" />
+                </h1>
+                <h2 className="chat-heading">Welcome to your personalized educational counseling assistant!</h2>
                 <div className="chat-box">
                   {messages.map((message, index) => (
                     <div key={index} className={`message ${message.sender}`}>
