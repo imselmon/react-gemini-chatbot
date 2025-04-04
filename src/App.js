@@ -86,7 +86,7 @@ function Chatbot() {
             return (
               <div className="chat-container">
                 <h1 className="chat-title">
-                <img src="/logo.png" />
+                <img src="/logo.png"  alt="logo"/>
                 </h1>
                 <h2 className="chat-heading">Welcome to your personalized educational counseling assistant!</h2>
                 <div className="chat-box">
