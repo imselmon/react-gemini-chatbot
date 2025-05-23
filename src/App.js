@@ -39,7 +39,7 @@ function Chatbot() {
                 };
 
                 try {
-                  const genAI = new GoogleGenerativeAI("AIzaSyAoO-FSPCfMJ-7itKo6mPQOeBN1g0DB4aQ");
+                  const genAI = new GoogleGenerativeAI("AIzaSyDwESrmGkzTfwn80AaoZaoJAtzBK8321uY");
                   const model = genAI.getGenerativeModel({
                     model: "gemini-1.5-pro",
                     systemInstruction: `
